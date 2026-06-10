@@ -11,12 +11,25 @@ Repository GitHub ini hanya berisi project Android dan dokumentasi ringkas. Mode
 </p>
 
 <p align="center">
+  <img src="readme_assets/mgrading_field_user_demo.gif" alt="Demo user lapangan mGradingUSTP" width="260">
+</p>
+
+<p align="center">
   <img src="readme_assets/screenshot_live_detection.jpg" alt="Live detection aktif" width="30%">
   <img src="readme_assets/screenshot_tag_result.jpg" alt="Tag TBS dan hasil grading" width="30%">
   <img src="readme_assets/screenshot_detection_inactive.jpg" alt="Deteksi tidak aktif" width="30%">
 </p>
 
 Demo di atas berasal dari tes lapangan 10 Juni 2026. Asset yang disimpan di repository hanya GIF/JPG kecil untuk README; video asli dan data mentah tetap tidak ikut dipush.
+
+## Dokumentasi User
+
+Dokumentasi perencanaan user tersedia dalam format HTML dan PDF:
+
+- [mGradingUSTP Plan - HTML](docs/mGradingUSTP_plan.html)
+- [mGradingUSTP Plan - PDF](docs/mGradingUSTP_plan.pdf)
+
+Dokumen ini merangkum tujuan aplikasi, alur kerja lapangan, rancangan UI, penyimpanan data, dan rencana validasi. Asset diagram pendukung disimpan di `docs/assets/`.
 
 ## Ringkasan Fitur
 

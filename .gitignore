@@ -19,6 +19,17 @@
 !readme_assets/
 !readme_assets/**
 
+# Selected user documentation
+!docs/
+docs/*
+!docs/mGradingUSTP_plan.html
+!docs/mGradingUSTP_plan.pdf
+!docs/assets/
+docs/assets/*
+!docs/assets/mgrading_architecture.svg
+!docs/assets/mgrading_ui_menu_status.svg
+!docs/assets/mgrading_storage.svg
+
 # Android app project
 !app/
 !app/build.gradle
@@ -45,7 +56,6 @@ app/src/main/assets/*.tflite
 *.rar
 
 # Raw test data, generated documentation, media, and databases
-docs/
 Live_testing_documentation/
 Screencast_*.webm
 *.mp4
