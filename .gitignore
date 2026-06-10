@@ -24,11 +24,19 @@
 docs/*
 !docs/mGradingUSTP_plan.html
 !docs/mGradingUSTP_plan.pdf
+!docs/mGradingUSTP_teknikal_live_multiobjek.md
+!docs/mGradingUSTP_teknikal_live_multiobjek.html
+!docs/mGradingUSTP_teknikal_live_multiobjek.pdf
 !docs/assets/
 docs/assets/*
 !docs/assets/mgrading_architecture.svg
 !docs/assets/mgrading_ui_menu_status.svg
 !docs/assets/mgrading_storage.svg
+!docs/assets/mgrading_live_flow.svg
+!Live_testing_documentation/
+Live_testing_documentation/*
+!Live_testing_documentation/docs_lapangan/
+!Live_testing_documentation/docs_lapangan/**
 
 # Android app project
 !app/
@@ -56,7 +64,6 @@ app/src/main/assets/*.tflite
 *.rar
 
 # Raw test data, generated documentation, media, and databases
-Live_testing_documentation/
 Screencast_*.webm
 *.mp4
 *.webm

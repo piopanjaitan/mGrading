@@ -22,14 +22,20 @@ Repository GitHub ini hanya berisi project Android dan dokumentasi ringkas. Mode
 
 Demo di atas berasal dari tes lapangan 10 Juni 2026. Asset yang disimpan di repository hanya GIF/JPG kecil untuk README; video asli dan data mentah tetap tidak ikut dipush.
 
-## Dokumentasi User
+## Dokumentasi
 
-Dokumentasi perencanaan user tersedia dalam format HTML dan PDF:
+Dokumentasi utama tersedia dalam format HTML dan PDF agar bisa dibuka langsung dari GitHub atau browser lokal:
 
 - [mGradingUSTP Plan - HTML](docs/mGradingUSTP_plan.html)
 - [mGradingUSTP Plan - PDF](docs/mGradingUSTP_plan.pdf)
+- [Teknikal Live Multi-Objek - Markdown](docs/mGradingUSTP_teknikal_live_multiobjek.md)
+- [Teknikal Live Multi-Objek - HTML](docs/mGradingUSTP_teknikal_live_multiobjek.html)
+- [Teknikal Live Multi-Objek - PDF](docs/mGradingUSTP_teknikal_live_multiobjek.pdf)
+- [Laporan Tes Lapangan - Markdown](Live_testing_documentation/docs_lapangan/mGradingUSTP_laporan_tes_lapangan.md)
+- [Laporan Tes Lapangan - HTML](Live_testing_documentation/docs_lapangan/mGradingUSTP_laporan_tes_lapangan.html)
+- [Laporan Tes Lapangan - PDF](Live_testing_documentation/docs_lapangan/mGradingUSTP_laporan_tes_lapangan.pdf)
 
-Dokumen ini merangkum tujuan aplikasi, alur kerja lapangan, rancangan UI, penyimpanan data, dan rencana validasi. Asset diagram pendukung disimpan di `docs/assets/`.
+Dokumen plan merangkum tujuan aplikasi, alur kerja lapangan, rancangan UI, penyimpanan data, dan rencana validasi. Dokumen teknikal menjelaskan arsitektur Android, alur live detection, SQLite, dan threshold. Laporan tes lapangan berisi capture video, grafik hasil deteksi, dan data validasi lapangan.
 
 ## Ringkasan Fitur
 
