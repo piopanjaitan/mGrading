@@ -4,6 +4,20 @@
 
 Repository GitHub ini hanya berisi project Android dan dokumentasi ringkas. Model TFLite, data lapangan, video, database, APK, notebook, dan file training tidak ikut dipush.
 
+## Demo Lapangan
+
+<p align="center">
+  <img src="readme_assets/mgrading_live_demo.gif" alt="Demo live detection mGradingUSTP" width="320">
+</p>
+
+<p align="center">
+  <img src="readme_assets/screenshot_live_detection.jpg" alt="Live detection aktif" width="30%">
+  <img src="readme_assets/screenshot_tag_result.jpg" alt="Tag TBS dan hasil grading" width="30%">
+  <img src="readme_assets/screenshot_detection_inactive.jpg" alt="Deteksi tidak aktif" width="30%">
+</p>
+
+Demo di atas berasal dari tes lapangan 10 Juni 2026. Asset yang disimpan di repository hanya GIF/JPG kecil untuk README; video asli dan data mentah tetap tidak ikut dipush.
+
 ## Ringkasan Fitur
 
 - Live camera detection menggunakan CameraX.

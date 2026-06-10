@@ -15,6 +15,10 @@
 !gradle/wrapper/
 !gradle/wrapper/**
 
+# README visual assets
+!readme_assets/
+!readme_assets/**
+
 # Android app project
 !app/
 !app/build.gradle
