@@ -1,0 +1,64 @@
+# Default: ignore everything, then allow only Android project essentials.
+*
+
+# Root documentation and Gradle config
+!.gitignore
+!README.md
+!build.gradle
+!settings.gradle
+!gradle.properties
+!gradlew
+!gradlew.bat
+
+# Gradle wrapper
+!gradle/
+!gradle/wrapper/
+!gradle/wrapper/**
+
+# Android app project
+!app/
+!app/build.gradle
+!app/proguard-rules.pro
+!app/src/
+!app/src/**
+
+# Keep lightweight asset instructions and labels, never the model binary.
+!app/src/main/assets/
+!app/src/main/assets/README_MODEL.txt
+!app/src/main/assets/labels.txt
+app/src/main/assets/*.tflite
+
+# ML model, training, and generated runtime outputs
+*.tflite
+*.pt
+*.onnx
+*.engine
+*.mlmodel
+*_saved_model/
+*.npy
+*.npz
+*.zip
+*.rar
+
+# Raw test data, generated documentation, media, and databases
+docs/
+Live_testing_documentation/
+Screencast_*.webm
+*.mp4
+*.webm
+*.db
+*.db-journal
+*.apk
+*.aab
+
+# Local build, IDE, and environment files
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
